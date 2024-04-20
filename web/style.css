@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1050px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(243, 9, 145);
+    text-decoration: none;
+}
+#searchbox{
+float: right;
+background: linear-gradient(rgb(25, 243, 25),rgb(147, 247, 172));
+width: 400px;
+height: 50px; 
+padding: 15px 10px 0px 10px;
+margin: 20px;
+
+
+}
+.submit{
+    float: right;
+    padding-left: 10px;
+margin-right: 20px; 
+font-weight: bold;
+background-color: rgb(240, 5, 240);
+color: azure;
+font-size: 15px;
+}
+.text{
+    float: left;
+    padding: 5px;
+    width: 180px;
+    font-size: 10px;
+    color: orangered;
+    background: white url(images/er.png) right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+
+#brand{
+    float: left;
+}
+.clear{
+    clear: both;
+
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(rgb(248, 248, 3),rgb(199, 199, 1));
+    padding: 7px 0px;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+  text-decoration: none;  
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #5d12e7;
+  transition: font-size 0.3s linear;
+}
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(248, 13, 131);
+}
+#introduction{
+    background:linear-gradient(rgb(135, 240, 94),rgb(95, 252, 34));
+    padding: 30px;
+    margin: 16px 0px ;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 25px;
+    color: #628F19;
+     text-align:justify ;
+}
+.sidebars{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebarwrap{
+   padding: 10px;
+   flex: 40%;
+}
+.sidebar{
+    height: 540px;
+    width: 430px;
+    border: 1px solid #BAF46F;
+    border-radius: 20PX;
+    padding: 10px 30px;
+    }
+
+#sdleftsidebar{
+    float: left;
+    }
+#rdfightsidebar{
+    float: right;
+}
+    
+.sidebar h3{
+    color: #f70a8c;
+    font-size: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #c412e7;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+text-decoration: none;
+color: #f70a8c;
+font-size: 23px;
+font-weight: bold;
+transition: font-size 0.2s ease;
+}
+#leftsidebar ul li{
+ padding: 6px;
+ padding-left: 10px;
+ list-style-image: url(images/ARROW.png);
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+#rightsidebar ul li{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    
+    list-style-image: url(images/tick.png);
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(233, 233, 5),rgb(180, 180, 3));
+   padding: 10px 30px;
+   margin: 15px;
+   }
+
+
+
